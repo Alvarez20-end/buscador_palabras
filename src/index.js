@@ -26,8 +26,7 @@ function buscarPalabra() {
     mostrarAlerta('No se encontró la palabra', 'info');
   } else {
     mostrarAlerta('Palabra encontrada ' + datos.veces + ' veces', 'exito');
-  }+
-  
+  }
 }
 
 function limpiar() {
